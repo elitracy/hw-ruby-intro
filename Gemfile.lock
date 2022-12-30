@@ -32,12 +32,13 @@ GEM
     rspec-support (3.11.0)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
   byebug
-  cucumber (= 2.0.0)
-  rspec (~> 3.8)
+  cucumber
+  rspec
 
 RUBY VERSION
    ruby 3.0.0p0
