@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 # Part 1
-
 def sum(arr)
   total = 0
   for i in arr do
@@ -65,7 +64,6 @@ def sum_to_n?(arr, number)
 end
 
 # Part 2
-
 def hello(name)
   "Hello, #{name}"
 end
@@ -96,7 +94,6 @@ def binary_multiple_of_4?(string)
 end
 
 # Part 3
-
 # Object representing a book
 class BookInStock
   attr_accessor :isbn
